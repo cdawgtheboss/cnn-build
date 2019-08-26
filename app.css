@@ -7,6 +7,21 @@ header{
     color: #cfcfcf;
     display: flex;
     justify-content: space-between;
+    height: 40px;
+    align-content: center;
+}
+#left_header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#left_header span{
+    align-content: center;
+}
+
+#logo{
+    background-color: red;
 }
 
 .row{
