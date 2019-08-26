@@ -8,6 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     height: 40px;
+    width: 100%;
     align-content: center;
 }
 #left_header{
@@ -16,12 +17,13 @@ header{
     align-content: center;
 }
 
-#left_header span{
+#left_header div{
     align-content: center;
 }
 
 #logo{
     background-color: red;
+    margin-left: 15px;
 }
 
 .row{
