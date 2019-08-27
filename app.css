@@ -1,3 +1,13 @@
+.container{
+    width: 1280px;
+    max-width: 1280px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 h4{
     background-color: #f2f2f2
 }
@@ -6,24 +16,43 @@ header{
     background-color: #0c0c0c;
     color: #cfcfcf;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 40px;
-    width: 100%;
     align-content: center;
+    width: 100%;
 }
+
 #left_header{
     display: flex;
     justify-content: space-between;
     align-content: center;
+    width: 720px;
 }
 
 #left_header div{
-    align-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #logo{
     background-color: red;
     margin-left: 15px;
+}
+
+nav{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    width: 1090px;
+    margin: 0 auto;
+}
+
+#right_header{
+    width: 260px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .row{
