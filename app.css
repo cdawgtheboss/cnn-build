@@ -1,3 +1,10 @@
+.circle{
+    width: 7px;
+    height: 7px;
+    background: red;
+    border-radius: 50%;
+}
+
 .container{
     width: 1280px;
     max-width: 1280px;
@@ -22,19 +29,19 @@ header{
     width: 100%;
 }
 
-#left_header{
+.left_header{
     display: flex;
     justify-content: space-between;
     align-content: center;
     width: 720px;
 }
 
-#left_header div{
+.left_header div{
     align-items: center;
     display: flex;
 }
 
-#logo{
+.logo{
     background-color: red;
     margin-left: 15px;
 }
@@ -45,9 +52,20 @@ nav{
     justify-content: space-around;
     width: 1090px;
     margin: 0 auto;
+    margin-top: 25px;
 }
 
-#right_header{
+nav div span{
+    border: none;
+}
+
+nav span{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0px 10px 0px 10px;
+}
+
+.right_header{
     width: 260px;
     border: 1px solid red;
     display: flex;
@@ -59,4 +77,8 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.trending{
+    color: red;
 }
