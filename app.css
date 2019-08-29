@@ -27,6 +27,8 @@ header{
     height: 40px;
     align-content: center;
     width: 100%;
+    position: fixed;
+    top: 0px;
 }
 
 .left_header{
@@ -46,12 +48,23 @@ header{
     margin-left: 15px;
 }
 
+main{
+    margin-top: 40px;
+}
+.main_container{
+    width: 1200px;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     width: 1090px;
     margin: 0 auto;
     margin-top: 25px;
+}
+
+nav div :nth-child(1){
+    color: red;
 }
 
 nav div span{
@@ -74,12 +87,20 @@ nav span{
 .right_header :nth-child(2){
     border: 1px purple solid;
 }
+
 .row{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.trending{
-    color: red;
+.row div{
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+.row div p{
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    width: 320px;
 }
