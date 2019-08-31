@@ -32,6 +32,21 @@ header{
     top: 0px;
 }
 
+.image_square div:nth-child(n+1){
+    background-color: blue;
+    flex-wrap: wrap;   
+} 
+
+.image_square div:nth-child(n+1) p{
+    width: inherit;
+    background-color: #ff0000;
+}
+
+.image_square > div{
+    border: 1px solid orange;
+    display: flex;
+}
+
 .left_header{
     display: flex;
     justify-content: space-between;
@@ -86,7 +101,6 @@ nav span{
     align-items: center;
 }
 
-
 .row{
     display: flex;
     flex-direction: row;
@@ -103,15 +117,3 @@ nav span{
     width: 320px;
 }
 
-/*
-.row :nth-child(2){
-    display: flex;
-    border: 1px solid lime;
-    flex-wrap: wrap;
-}
-
-.row :nth-child(2) p{
-    width: inherit;
-}
-
-*/
