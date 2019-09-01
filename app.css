@@ -32,19 +32,18 @@ header{
     top: 0px;
 }
 
-.image_square div:nth-child(n+1){
-    background-color: blue;
-    flex-wrap: wrap;   
+.image_square div{
+    padding: 5px;
 } 
 
 .image_square div:nth-child(n+1) p{
     width: inherit;
-    background-color: #ff0000;
+
 }
 
 .image_square > div{
-    border: 1px solid orange;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .left_header{
