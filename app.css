@@ -20,21 +20,19 @@
     background-color: #f2f2f2;
     flex-direction: row;
     justify-content: space-between;
-    border: 1px solid purple;
     margin: 10px 0px 20px 0px;
 }
 
 .flex_head h4{
-    border: 1px solid red;
     display: flex;
     margin: initial;
 }
 
 .flex_head i{
-    border: 1px solid blue;
     align-items: center;
     display: flex;
     background-color: #e6e6e6;
+    padding: 0px 10px 0px 10px;
 }
 
 .flex_head div{
@@ -60,9 +58,7 @@ header{
     top: 0px;
 }
 
-.image_square div{
-    padding: 5px;
-} 
+
 
 .image_square div:nth-child(n+1) p{
     width: inherit;
