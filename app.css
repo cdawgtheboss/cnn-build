@@ -15,6 +15,27 @@
     justify-content: space-between;
 }
 
+.flex_head{
+    display: flex;
+    background: linear-gradient(
+    to right, #f2f2f2 0%, #f2f2f2 90%, #e6e6e6 90%, #e6e6e6 100%);
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid purple;
+    margin: 0;
+}
+
+.flex_head h4{
+    border: 1px solid red;
+    display: flex;
+}
+
+.flex_head i{
+    border: 1px solid blue;
+    align-items: center;
+    display: flex;
+}
+
 h3, h4{
     background-color: #f2f2f2;
     padding-left: 5px;
@@ -112,11 +133,11 @@ nav span{
 .row div{
     justify-content: center;
 }
-
+/*
 .row:nth-child(n+3) h4{
     background: linear-gradient(
     to right, #f2f2f2 0%, #f2f2f2 90%, #e6e6e6 90%, #e6e6e6 100%);
-}
+}*/
 .row div p{
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
