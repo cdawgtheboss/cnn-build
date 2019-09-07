@@ -69,6 +69,11 @@ header{
     flex-wrap: wrap;
 }
 
+.image_square > div div{
+    padding-right: 5px;
+
+}
+
 .left_header{
     display: flex;
     justify-content: space-between;
@@ -84,6 +89,7 @@ header{
 .logo{
     background-color: red;
     margin-left: 15px;
+    color: white;
 }
 
 main{
@@ -166,6 +172,7 @@ nav span{
 .trending div p{
     margin-left: 10px;
 }
+
 .video_display{
     width: 1100px;
     margin: 0 auto;
